@@ -46,3 +46,4 @@ input:not([type=checkbox]):not([type=radio]),select,textarea{background:var(--sf
 .ic{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;vertical-align:-3px}
 .blk>.ic{float:left;margin:4px 8px 0 0;color:var(--no)}.blk.ok>.ic{color:var(--ok)}.blk.wa>.ic{color:var(--wa)}
 .nav{margin-top:40px}details{background:none;border:0;border-top:1px solid var(--bd);border-radius:0;padding:18px 0}
+a.st,a.btn{display:inline-block;text-decoration:none}a.btn{color:var(--tx)}.card a{color:var(--ac)}.nav .mu{align-self:center}
