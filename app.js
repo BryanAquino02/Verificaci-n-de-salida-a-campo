@@ -123,4 +123,5 @@ const A={
 document.addEventListener('click',e=>{const b=e.target.closest('[data-a]');if(!b||b.disabled)return;const a=b.dataset.a;S.err=null;S.ce=null;if(a!='off')S.sync=false;A[a](b.dataset);R()});
 document.addEventListener('input',e=>{const t=e.target,m=t.dataset.m;if(!m)return;const p=m.split('.');let o=S;for(let i=0;i<p.length-1;i++)o=o[p[i]]=o[p[i]]||{};o[p[p.length-1]]=t.type=='checkbox'?t.checked:t.value;if(m=='role')location.hash=HOME[t.value];if(t.type=='checkbox'||t.dataset.r)R()});
 addEventListener('hashchange',()=>{S.err=null;R();up()});
+const dw=$('#dw');if(dw)dw.remove();
 R();
